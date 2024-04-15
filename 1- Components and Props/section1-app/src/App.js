@@ -9,7 +9,7 @@ import ToggleMultiple from './components/ToggleMultiple';
 import Clock from './components/Clock';
 import TodoList from './components/TodoList';
 import WindowWitdhChecker from './components/WindowWitdhChecker';
-
+import DataFetcher from './components/DataFetcher';
 
 
 function App() {
@@ -54,6 +54,8 @@ function App() {
       <TodoList/>
       <h2>6- Verificador de largura de tela</h2>
       <WindowWitdhChecker/>
+      <h2>7- Simulação de busca de dados</h2>
+      <DataFetcher/>
     </div>
   );
 }
