@@ -6,6 +6,7 @@ import Family from './components/Family';
 import Counter from './components/Counter';
 import Toggle from './components/Toggle';
 import ToggleMultiple from './components/ToggleMultiple';
+import Clock from './components/Clock';
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
       <Toggle />
       <h2>2- Toggle Multiplo</h2>
       <ToggleMultiple/>
+      <h2>3- Relogio em tempo real</h2>
+      <Clock/>
     </div>
   );
 }
