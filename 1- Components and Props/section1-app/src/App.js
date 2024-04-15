@@ -4,6 +4,8 @@ import HelloWorld from './components/HelloWorld';
 import Profile from './components/Profile';
 import Family from './components/Family';
 import Counter from './components/Counter';
+import Toggle from './components/Toggle';
+
 
 function App() {
 
@@ -36,6 +38,9 @@ function App() {
       <Family members={members}/>
       <h2>5- Component com estado</h2>
       <Counter/>
+      <h1>Section 2:Estado e ciclo de vida</h1>
+      <h2>1- Usando o estado</h2>
+      <Toggle />
     </div>
   );
 }
