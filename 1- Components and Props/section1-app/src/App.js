@@ -8,6 +8,8 @@ import Toggle from './components/Toggle';
 import ToggleMultiple from './components/ToggleMultiple';
 import Clock from './components/Clock';
 import TodoList from './components/TodoList';
+import WindowWitdhChecker from './components/WindowWitdhChecker';
+
 
 
 function App() {
@@ -50,6 +52,8 @@ function App() {
       <Clock/>
       <h2>4- Todo List e Filter</h2>
       <TodoList/>
+      <h2>6- Verificador de largura de tela</h2>
+      <WindowWitdhChecker/>
     </div>
   );
 }

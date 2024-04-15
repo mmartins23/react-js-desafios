@@ -85,3 +85,12 @@ tarefas;
 * Implemente no componente do exercício anterior um filtro de tarefas;
 * Um campo de texto que mostra apenas as tarefas que contenham o texto digitado;
 * Utilize o useState para gerenciar o filtro;
+
+***
+
+# Ex 12: Verificador de largura da tela
+* Crie um novo componente que exibe a largura da tela;
+* A cada mudança de largura a dimensão deve ser atualizada de forma instantânea;
+* Utilize useState e useEffect para chegar no resultado final;
+
+***
