@@ -48,7 +48,7 @@ function App() {
       <ToggleMultiple/>
       <h2>3- Relogio em tempo real</h2>
       <Clock/>
-      <h2>4- Todo List</h2>
+      <h2>4- Todo List e Filter</h2>
       <TodoList/>
     </div>
   );

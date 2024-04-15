@@ -8,6 +8,9 @@ const TodoList = () => {
     setTodos([...todos, { id: Math.random(), task: task }]);
     setTask("");
   };
+
+  const [filter, setFilter] = useState("");
+
   return (
     <div>
       <input
@@ -16,10 +19,18 @@ const TodoList = () => {
         onChange={(e) => setTask(e.target.value)}
       />
       <button onClick={addTodo}>Add List</button>
+      <input
+        type="text"
+        value={filter}
+        onChange={(e) => setFilter(e.target.value)}
+        placeholder="Procura a sua tarefa"
+      />
       <ul>
-        {todos.map((todo) => (
-          <li key={todo.id}>{todo.task}</li>
-        ))}
+        {todos
+          .filter((todo) => todo.task.includes(filter))
+          .map((todo) => (
+            <li key={todo.id}>{todo.task}</li>
+          ))}
       </ul>
     </div>
   );

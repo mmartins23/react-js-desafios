@@ -80,3 +80,8 @@ a uma lista;
 tarefas;
 
 ***
+
+# Ex 11: Filtro
+* Implemente no componente do exercício anterior um filtro de tarefas;
+* Um campo de texto que mostra apenas as tarefas que contenham o texto digitado;
+* Utilize o useState para gerenciar o filtro;
