@@ -50,3 +50,11 @@ número;
 estado;
 * Deve começar com ON e ao clicar mudar para OFF;
 * O contrário também deve ocorrer;
+
+***
+
+# Ex 8: Múltiplos estados
+* Crie um componente semelhante ao Toggle;
+* Porém agora ele deve conter dois estados;
+* O número de cliques no botão precisa ser exibido e
+atualizado a cada clique;

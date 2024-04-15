@@ -5,6 +5,7 @@ import Profile from './components/Profile';
 import Family from './components/Family';
 import Counter from './components/Counter';
 import Toggle from './components/Toggle';
+import ToggleMultiple from './components/ToggleMultiple';
 
 
 function App() {
@@ -41,6 +42,8 @@ function App() {
       <h1>Section 2:Estado e ciclo de vida</h1>
       <h2>1- Usando o estado</h2>
       <Toggle />
+      <h2>2- Toggle Multiplo</h2>
+      <ToggleMultiple/>
     </div>
   );
 }
