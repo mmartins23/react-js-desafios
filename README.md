@@ -96,14 +96,13 @@ tarefas;
 ***
 
 # Ex 13: Simulação de busca de dados
-● Crie um componente que vai simular uma 
+* Crie um componente que vai simular uma 
 requisição a uma API;
-● Utilize o setTimeout para representar a demora da 
+* Utilize o setTimeout para representar a demora da 
 resposta;
-● Enquanto a resposta não chega, exiba um estado 
+* Enquanto a resposta não chega, exiba um estado 
 de loading;
-● E depois exiba os dados;
-
+* E depois exiba os dados;
 
 ***
 
@@ -114,7 +113,6 @@ registro;
 * Faça o envio do formulário;
 * Em vez de enviar para um servidor, exiba todos os 
 dados em um console.log;
-
 
 ***
 
