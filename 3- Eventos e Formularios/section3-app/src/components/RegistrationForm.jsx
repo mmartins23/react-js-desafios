@@ -1,30 +1,31 @@
 import { useState } from "react";
 
-const RegistrationForm = () => {
+const Form = () => {
   const [values, setValues] = useState({
     name: "",
     email: "",
-    password: "",
-  });
+    password: ""
+  })
 
   const handleChange = (e) => {
     setValues({
       ...values,
       [e.target.name]: e.target.value,
     });
-  };
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(values);
-  };
+    setValues("");
+  }
 
   return (
     <form onSubmit={handleSubmit}>
       <div>
         <p>Name:</p>
         <input
-          type="text"
+          type='text'
           name="name"
           value={values.name}
           onChange={handleChange}
@@ -34,7 +35,7 @@ const RegistrationForm = () => {
       <div>
         <p>Email:</p>
         <input
-          type="email"
+          type='email'
           name="email"
           value={values.email}
           onChange={handleChange}
@@ -44,16 +45,16 @@ const RegistrationForm = () => {
       <div>
         <p>Password:</p>
         <input
-          type="password"
+          type='password'
           name="password"
-          value={values.passwords}
+          value={values.password}
           onChange={handleChange}
         />
       </div>
 
       <button>Send</button>
     </form>
-  );
-};
+  )
+}
 
-export default RegistrationForm;
+export default Form;
