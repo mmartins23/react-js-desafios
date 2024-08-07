@@ -13,3 +13,11 @@ name;
 prop que foi enviada;
 
 ***
+
+Ex 3: Múltiplas props
+● Crie um novo componente;
+● Este componente deve receber pelo menos três 
+pops, utilize tipos de dados diferentes;
+● Exiba os valores das props no componente;
+
+***
