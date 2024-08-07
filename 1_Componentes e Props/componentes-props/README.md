@@ -32,3 +32,13 @@ componente do exercício anterior;
 itens do array com um map;
 
 ***
+
+Ex 6: Componente com Estado
+● Crie um componente chamado Counter;
+● Ele deve renderizar um número e um botão;
+● O número deve começar em 0, e incrementar em 
+um a cada clique;
+● Utilize o hook useState para gerenciar o estado do 
+número;
+
+***

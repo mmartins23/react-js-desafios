@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter'
 import Family from './components/Family'
 import Greeting from './components/Greeting'
 import HelloWorld from './components/HelloWorld'
@@ -23,6 +24,10 @@ function App() {
       <hr />
       <h2>Ex 4: Composição de Componentes</h2>
       <Family members={members} />
+      <hr />
+      <h2>Ex 6: Componente com Estado</h2>
+      <Counter />
+      <hr />
     </>
   )
 }
