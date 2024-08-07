@@ -21,3 +21,14 @@ pops, utilize tipos de dados diferentes;
 ● Exiba os valores das props no componente;
 
 ***
+
+Ex 4: Composição de Componentes
+● Crie um novo Componente;
+● Este componente deve aceitar uma prop chamada members;
+● Em members teremos um array de objetos;
+● Defina este array com as propriedades iguais as props do 
+componente do exercício anterior;
+● Utilizando os componentes em conjunto, renderize todos os 
+itens do array com um map;
+
+***
