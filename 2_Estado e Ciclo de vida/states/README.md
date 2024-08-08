@@ -24,3 +24,12 @@ segundo;
 ● A hora pode ser obtida com a classe Date;
 
 ***
+
+Ex 10: Lista de Tarefas
+● Crie um componente chamado TodoList;
+● Ele deve permitir que o usuário adicione uma tarefa 
+a uma lista;
+● Cada tarefa deve ter duas propriedades: id e task;
+● Onde task é o título;
+● Utilize o useState para gerenciar o estado da lista de 
+tarefas;

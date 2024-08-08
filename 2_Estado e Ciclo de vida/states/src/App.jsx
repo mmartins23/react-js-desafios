@@ -1,5 +1,6 @@
 import './App.css'
 import Clock from './components/Clock'
+import TodoList from './components/TodoList'
 import Toggle from './components/Toggle'
 import ToggleMultiple from './components/ToggleMultiple'
 
@@ -17,6 +18,9 @@ function App() {
       <h2>Ex:9 Clock</h2>
       <Clock />
       <hr />
+      <h2>Ex: 10</h2>
+      <TodoList/>
+      <hr/>
     </>
   )
 }
