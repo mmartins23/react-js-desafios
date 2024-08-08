@@ -18,7 +18,7 @@ function App() {
       <h2>Ex:9 Clock</h2>
       <Clock />
       <hr />
-      <h2>Ex: 10</h2>
+      <h2>Ex: 10 Todo List</h2>
       <TodoList/>
       <hr/>
     </>
