@@ -1,4 +1,5 @@
 import './App.css'
+import Clock from './components/Clock'
 import Toggle from './components/Toggle'
 import ToggleMultiple from './components/ToggleMultiple'
 
@@ -9,10 +10,13 @@ function App() {
       <hr />
       <h2>Ex:7 Usando estado</h2>
       <Toggle />
-      <hr/>
+      <hr />
       <h2>Ex:8 Multiplos estados </h2>
-      <ToggleMultiple/>
-      <hr/>
+      <ToggleMultiple />
+      <hr />
+      <h2>Ex:9 Clock</h2>
+      <Clock />
+      <hr />
     </>
   )
 }
