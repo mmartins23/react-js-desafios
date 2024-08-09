@@ -1,6 +1,7 @@
 import './App.css'
 import DynamicForm from './components/DynamicForm'
 import RegistrationForm from './components/RegistrationForm'
+import ValidationForm from './components/ValidationForm'
 
 function App() {
 
@@ -11,6 +12,10 @@ function App() {
       <hr />
       <h2>Ex: 15 Dynamic Form</h2>
       <DynamicForm />
+      <hr/>
+      <h2>Ex: 16 Validation Form</h2>
+      <ValidationForm/>
+      <hr/>
     </>
   )
 }

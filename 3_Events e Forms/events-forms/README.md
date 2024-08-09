@@ -16,4 +16,16 @@ input a cada clique nele;
 ● Em vez de enviar para um servidor, exiba todos os 
 dados em um console.log (inclusive dos inputs 
 adicionados dinamicamente);
-Ex
+
+***
+
+Ex 16: Validação de formulário
+● Para este exercício utilize o formulário do Exercício 14 
+como base;
+● Crie validações para todos os campos;
+● A validação deve ser ativada quando o usuário 
+digita no campo e quando envia o formulário;
+● A mensagem do erro deve ser exibida embaixo de 
+cada um dos inputs; 
+
+***
