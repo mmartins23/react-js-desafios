@@ -4,6 +4,7 @@ import FilterTodo from './components/FilterTodo'
 import TodoList from './components/TodoList'
 import Toggle from './components/Toggle'
 import ToggleMultiple from './components/ToggleMultiple'
+import WindowWidthChecker from './components/WindowWidthChecker'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       <hr/>
       <h2>Ex: 11 Filter Todo List</h2>
       <FilterTodo/>
+      <hr/>
+      <h2>Ex: 12 Window Checker</h2>
+      <WindowWidthChecker/>
       <hr/>
     </>
   )
