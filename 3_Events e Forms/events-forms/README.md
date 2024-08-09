@@ -37,5 +37,13 @@ arquivo;
 tipo file;
 ● E se for uma imagem, mostre o preview da mesma;
 
-
 ***
+
+Ex 18: Formulário múltiplas etapas
+● Crie um componente de formulário que possui 
+múltiplas etapas;
+● Cada etapa deve ter um ou mais campos;
+● Crie a funcionalidade de prosseguir e voltar nas 
+etapas;
+● Adicione uma validação mínima para os inputs em 
+cada etapa;

@@ -1,6 +1,7 @@
 import './App.css'
 import DynamicForm from './components/DynamicForm'
 import FileUploader from './components/FileUploader'
+import MultiPartForm from './components/MultiPartForm'
 import RegistrationForm from './components/RegistrationForm'
 import ValidationForm from './components/ValidationForm'
 
@@ -19,6 +20,9 @@ function App() {
       <hr/>
       <h2>Ex: 17 File Uploader</h2>
       <FileUploader/>
+      <hr/>
+      <h2>Ex: 18 MultiPart Form</h2>
+      <MultiPartForm/>
       <hr/>
     </>
   )
