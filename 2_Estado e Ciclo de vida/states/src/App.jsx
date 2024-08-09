@@ -1,5 +1,6 @@
 import './App.css'
 import Clock from './components/Clock'
+import DataFetcher from './components/DataFetcher'
 import FilterTodo from './components/FilterTodo'
 import TodoList from './components/TodoList'
 import Toggle from './components/Toggle'
@@ -21,14 +22,17 @@ function App() {
       <Clock />
       <hr />
       <h2>Ex: 10 Todo List</h2>
-      <TodoList/>
-      <hr/>
+      <TodoList />
+      <hr />
       <h2>Ex: 11 Filter Todo List</h2>
-      <FilterTodo/>
-      <hr/>
+      <FilterTodo />
+      <hr />
       <h2>Ex: 12 Window Checker</h2>
-      <WindowWidthChecker/>
-      <hr/>
+      <WindowWidthChecker />
+      <hr />
+      <h2>Ex: 13 Simulating an API</h2>
+      <DataFetcher />
+      <hr />
     </>
   )
 }
